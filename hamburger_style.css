@@ -57,18 +57,19 @@
             }
             nav li {
                 float: left;
+                margin: 0;
             }
-        .submenu {
+        /* .submenu {
             background-color: #222;
             display: none;
             position: absolute;
         }
         .submenu li {
             float: none;
-        }
-        nav li:hover .submenu {
+        } */
+        /* nav li:hover .submenu {
             display: block;
-        }
+        } */
         .clearfix::after {
             content:"";
             display: block;
@@ -86,6 +87,7 @@ nav a{
     padding: 0 15px;
     display: block;
     transition: all .5s;
+    
 }
 nav .menu a:hover{
     background-color: rgb(151, 151, 151);
@@ -107,14 +109,20 @@ nav .menu a:hover{
         float: left;
     }
     nav a{
+        font-size: 16px;
         color: aliceblue;
-        padding: 0 15px;
+        padding-top: 5px 0;
         display: block;
         transition: all .5s;
+        line-height: 40px;
+        /* margin: 20px 0; */
     }
     nav .menu a:hover{
         background-color: rgb(151, 151, 151);
-        padding: 5px ;
+        padding: 10px 10px;
+        font-size: 20px;
+        margin-top: -10px;
+        font-family: serif;
     }  
 }
 
@@ -285,13 +293,13 @@ footer{
     }
     .inter .col-3{
         /* border-radius: 50%; */
-        border: 5px solid limegreen;
+        /* border: 5px solid limegreen; */
         padding: 10px;
         font-size: 20px;
         display: inline-block;
     }
     .inter .col-3 :hover{
-        color: rgb(0,0,0);
-        background-color: #fff;
+        color: rgb(0, 0, 0);
+        /* background-color: #fff; */
     }
 }
